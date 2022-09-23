@@ -8,4 +8,6 @@ app.get("/", (req, res) => {
 
 app.listen(port, () => {
     console.log(`Express() running on ${port}`);
-  });
+});
+  
+module.exports = app
