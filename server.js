@@ -1,13 +1,11 @@
 const express = require('express')
 const app = express()
-const port = 5000
+const port = 4269
 
 app.get("/", (req, res) => {
-    res.send('foooo')
+    res.send('Skeleton Vercel Node.js Deploy')
 })
 
 app.listen(port, () => {
     console.log(`Express() running on ${port}`);
 });
-  
-// module.exports = app
